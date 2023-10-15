@@ -1,0 +1,173 @@
+/* CSS Document */
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style-type: none;
+	outline-color: none;
+}
+/*bütün etiketleri kapsayan (*) komutudur. Özellikleri bu şekilde sıfırlayabilirsiniz.*/
+
+body {
+	background-image: url(../_img/ignasi_pattern_s.png)
+}
+#wrapper {
+	width: 960px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	width: 960px;
+	height: 98px;
+	border-bottom: #ff6633 2px solid;
+	background: linear-gradient(to bottom, #f9f9f9 0%, #bebebe 100%);
+}
+#site-tittle a {
+	font-family: 'montserrat' sans-serif;
+	color: 333333;
+	font-size: 21px;
+}
+#site-slogan {
+	font-family: 'montserrat', sans-serif;
+	color: 333333;
+	font-size: 18px;
+}
+hgroup {
+	padding-left: 15px;
+	padding-top: 15px;
+	width: 195px;
+	float: left
+}
+nav {
+	float: right;
+	width: 100%;
+}
+nav ul li {
+	float: left;
+	
+}
+nav ul li a {
+	font-family: montserrat sans-serif;
+	font-size: 18.24px;
+	color: #333333;
+	line-height: 57px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.nav-desc {
+	font-family: montserrat sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+nav ul li a:hover {
+	color: #ff6633;
+}
+/*github.com sitesi depolama servisidir. araştır.  */
+					
+/*nivo slider den slider tema indirebiliriz.*/
+/*https://github.com/Codeinwp/Nivo-Slider-jQuery sitesinden indirebiilrisin.*/
+/* nivo  slider yalnızca bir çeşittir.*/
+/*csscompressor.com da kendi yazdığın  css kodlarını copy paste yaptığun zaman dosya boyutu düşmekle birlikte sitenin açılış hızınıda dengeler. bu şekilde yaptığın zaman kodları sıkıştırırı.
+*/
+
+
+.container {
+	width: 96%;
+	height: auto;
+	margin: 0 auto
+}
+.content {
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.bosluk {
+	margin: 0 30px;
+}
+footer {
+	background-image: url(../_img/footet_03.jpg);
+	width: 100%;
+	height: 150px;
+	margin-top: 40px;
+}
+.clear {
+	clear: both;/*bu komut float etkisini silmemize yardımcı olur.*/
+}
+#social-media {
+	width: 400px;
+	height: 70px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial,montserrat, sans-serif;
+	font-size: 14px;
+	padding-left: 25px;
+	padding-top: 45px;
+}
+#social-media ul li {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+#social-media ul li a {
+	width: 30px;
+	height: 30px;
+	display: block;
+	border: #6FF 5px solid;
+}
+#social-media ul li a:hover /*bu üzeirne gitiğinde renk verir*/ {
+	filter: blur (1px);
+	transition: ease-in-out 0.5s;
+	border: #FFF 5 px solid;
+	transform: scale(1.1, 1.1);
+	transform: rotate(360deg);
+}
+/*iletişim sayfası css*/
+
+#google-maps {
+	width: 960px;
+	height: 300px;
+	margin-bottom: 25px auto 0 auto;
+}
+/*iletişim sayfası css bitiş
+*/
+
+#contact-form {
+	width: 100%;
+	;
+	height: 360px;
+	background-color: #EEE;
+	box-shadow: 1px 1px 5px 1px#bfbfbf;
+	float: left;
+	margin: auto;
+}
+
+ input[type="text"] {
+	width: 57%;
+	height: 20px;
+	border: #c2c2c2 2px solid;
+	margin-bottom: 5 px;
+}
+#message {
+	width: 700px;
+	height: 165px;
+	resize: none;
+	border: #c2c2c2 2px solid;
+}
+input[type="submit"] 
+ {
+	width: 150px;
+	height: 25px;
+	background-color: #F63;
+	color: #FFF;
+	border: 2px solid #FECC66;
+	cursor: pointer;
+	float: none;
+}
+table{
+	width:370px;
+	height:330px;
+	font-family:"montserrat"Arial, Helvetica, montserrat sans-serif;
+	color:#494949;
+	font-size:14px;
+	margin-top:15px;
+	margin-left:35px;}
+/*iletişim sayfası css bitiş*/

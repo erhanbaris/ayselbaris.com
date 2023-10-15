@@ -1,0 +1,311 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+.temizlikci {
+	clear: both;
+}
+.container {
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.kizlar-cont {
+	width: 960px;
+	height: auto;
+	margin: auto;
+}
+.menu-alan {
+	width: 90%;
+	height: 60px;
+	background-color: #fd926d;
+	margin: auto;
+}
+.menu-yazi {
+	width: 40%;
+	height: 60px;
+	float: left;
+	color: rgba(255,255,255,1);
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	line-height: 60px;
+	margin-left: 5%;
+}
+.ust-hamburger {
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 5%;
+}
+.logo {
+	width: 60%;
+	height: auto;
+	margin: auto;
+	margin-top: 5%;
+}
+.sosyal-cont {
+	width: 50%;
+	height: auto;
+	margin: auto;
+	margin-top: 5%;
+}
+.sosyal-icon {
+	width: 33.3%;
+	height: auto;
+	float: left;
+}
+.siyah {
+	width: 100%;
+	height: 5px;
+	background-color: #000;
+	margin-top: 5%;
+}
+.turuncu-bg {
+	background-color: #fd926d;
+}
+.buyukbaslik {
+	width: 100%;
+	height: 60px;
+	background-color: #f4845d;
+	margin-top: 5%;
+}
+.urun-cont {
+	width: 45%;
+	height: auto;
+	margin: 2.5%;
+	float: left;
+	background-color: #f7f7f7;
+}
+.urun-img {
+	width: 100%;
+	height: auto;
+}
+.urunbaslik {
+	width: 100%;
+	height: auto;
+	margin-top: 3%;
+}
+.urunbaslik h4 {
+	color: #373737;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 100;
+}
+.urunbaslik h5 {
+	color: #373737;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 100;
+}
+.buton {
+	width: 60%;
+	height: 35px;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.buton button {
+	width: 100%;
+	height: 35px;
+	background-color: #fd926d;
+	border-bottom: 2px solid #dd6b44;
+	color: rgba(255,255,255,1);
+}
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: rgba(0,0,0,1);
+	margin-top: 5%;
+}
+.alt-hamburger {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5%;
+}
+.alt-yazi {
+	width: 40%;
+	height: 40px;
+	margin-right: 5%;
+	color: #8d8d8d;
+	float: right;
+	text-align: right;
+	margin-top: 10px;
+}
+.slider {
+	display: none;
+}
+.ara-banner {
+	display: none;
+}
+.menu {
+	display: none;
+}
+.logo-in-menu {
+	display: none;
+}
+.canta-cont {
+	width: 80%;
+	margin: auto;
+	margin-top: 45px;
+}
+.kizlar-cont{display:none;}
+.buyukbaslik{display:none;}
+.turuncu-renk{background-color:rgba(253,146,109,1);}
+@media only screen and (min-width:760px) {
+.logo {
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+}
+.sosyal-cont {
+	width: 20%;
+	float: right;
+	margin-right: 5%;
+	margin-top: 7%;
+}
+.slider {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.urun-cont {
+	width: 22.5%;
+	margin: 2.5% 1.25%;
+}
+.ara-banner {
+	width: 90%;
+	height: auto;
+	margin: auto;
+	margin-top: 5%;
+	display: block;
+}
+}
+.menu {
+	display: none;
+}
+.logo-in-menu {
+	display: none;
+}
+
+@media only screen and (min-width:1200px) {
+.logo {
+	display: none;
+}
+.menu-alan {
+	width: 100%;
+	height: 96px;
+	background-color: #fff;
+}
+.menu-yazi {
+	display: none;
+}
+.logo-in-menu {
+	width: 12%;
+	height: 30px;
+	float: left;
+	margin-top: 2%;
+	margin-left: 10%;
+	display: block;
+}
+.menu ul {
+	display: block;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	width: 20%;
+	height: 20px;
+	display: block;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #000;
+	font-family: Arial, "sans-serif";
+	line-height: 95px;
+	font-size: 16px;
+}
+.menuul li a:hover {
+	color: black;
+}
+.ust-hamburger {
+	display: none;
+}
+.sosyal-cont {
+	display: none;
+}
+.siyah {
+	margin-top: 0px;
+}
+.turuncu-bg {
+	width: 80%;
+	margin: auto;
+	margin-top: 45px;
+}
+.ara-banner {
+	margin: auto;
+	width: 80%;
+	margin-top: 3%
+}
+.menu {
+	width: 35%;
+	height: 96px;
+	margin-left: 55%;
+	display: block;
+}
+.buyukbaslik {
+	display: none;
+}
+.canta-cont {
+	display: none;
+}
+.gri-cizgi {
+	width: 100%;
+	height: 2px;
+	background-color: #8b8b8b;
+}
+.logo-list-cont {
+	width: 100%;
+	height: 98px;
+	margin: auto;
+}
+.logo-list-img {
+	width: 995px;
+	height: 98px;
+	margin: auto;
+	padding-top: 22px;
+}
+.about-written {
+	width: 980px;
+	height: 180px;
+	margin:auto;
+	
+}
+h4 {
+	font-size: 24px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-top:30px;
+	font-weight:100px;
+}
+p{text-align:center;
+color:#8b8b8b;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+.alt-yazi{display:none;}
+.alt-hamburger{display:none;}
+.menu-alan{display:none;}
+.kizlar-cont{display:block}
+.harita{width:100%;
+height:auto;}
+}

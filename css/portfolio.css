@@ -1,0 +1,707 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding-right: 0;
+	padding-left: 0;
+	border: 0;
+}
+.temizlikci {
+	clear: both;
+}
+ .container3 {width:100%;
+		margin:auto;
+	 }	 
+	 
+.container {
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+.container2 {
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.menu-portfolio {
+	width: 100%;
+	height: 90px;
+	float: right;
+	background-color: rgba(29,28,28,0.5);
+	margin: auto;
+	text-align: center;
+}
+.logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+}
+.logo a {
+	text-align: center;
+	float: left;
+}
+.logo-line-height {
+	width: 70px;
+	height: 60px;
+	float: left;
+	line-height: 264px;
+	margin-left: 20%;
+}
+.footerlogo {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-top: 20px;
+	margin: auto;
+}
+.menu-portfolio ul li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	width: 8%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	line-height: 57px;
+	
+}
+.menu-portfolio ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: montserrat;
+	font-size: 12px;
+	display: block;
+	margin-top: 0px;
+	font-weight: 100;
+	margin-right: 0%;
+}
+.menu-portfolio ul li a:hover {
+	color: #FECC66;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+}
+.menu-portfolio li ul {
+	display: none;
+}
+.menu-portfolio li ul li {
+	background-color: rgba(29,28,28,0.5);
+	width: 100%;
+	height: 60px;
+}
+.menu-portfolio li ul li a {
+	line-height: 20px!important
+}
+.menu-portfolio li:hover ul {
+	display: block;
+}
+.baslik-yazi {
+	background-color: rgba(29,28,28,0.5);
+	width: 40%;
+	margin: auto;
+	margin-top: 230px;
+}
+.menu-photo {
+	background-image: url(../image/renkli-frca.jpg);
+	background-image: center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	text-align: center;
+}
+h1 {
+	margin: auto!important;
+	text-align: center;
+	line-height: 300px;
+	font-size: 80px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+.no-line-height {
+	line-height: normal;
+}
+.padding-left-16 {
+	padding-left: 25%;
+}
+.padding-right-16 {
+	padding-right: 25%;
+}
+footer {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.mrg-left-20 {
+	margin-left: 20%;
+}
+.mrg-left-32 {
+	margin-left: 32%;
+}
+.gray-line {
+	width: 100%;
+	float: left;
+	height: 2px;
+	background-color: rgba(98,98,98,1.00);
+	margin-top: 60px;
+}
+.footer-icerik {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	height: 300px;
+}
+.folow-written {
+	margin: auto!important;
+	font-size: 30px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	;
+}
+.social-icon-cont {
+	float: left;
+	background-image: url(../image/grafik.jpg);
+	background-image: center center no-repeat;
+	background-size: cover;
+	margin: auto;
+	width: 33.3%;
+	height: 250px;
+	text-align: center;
+}
+.social-icon-cont2 {
+	background-image: url(../image/paint-2940513.jpg);
+	background-image: center center no-repeat;
+	background-size: cover;
+	margin: auto;
+	width:100%;
+	height: 250px;
+	text-align: center;
+	float: left;
+}
+.social-icon-cont3 {
+	float: left;
+	background-image: url(../image/webdesign.jpg);
+	background-image: center center no-repeat;
+	background-size: cover;
+	margin: auto;
+	width: 33.3%;
+	height: 250px;
+	text-align: center;
+}
+.fa-behance {
+	  font-size: 30px;
+    color: #fff;
+   
+    margin: auto;
+}
+.fa-behance :hover {
+	color: #FECC66;
+}
+.fa-instagram :hover {
+	color: #FECC66
+}
+.fa-facebook :hover {
+	color: #FECC66;
+}
+.fa-linkedin :hover {
+	color: #FECC66
+}
+.fa-instagram {
+	  font-size: 30px;
+    color: #fff;
+   
+    margin: auto;
+}
+.fa-facebook {
+	  font-size: 30px;
+    color: #fff;
+   
+    margin: auto;
+}
+.fa-linkedin {
+	  font-size: 30px;
+    color: #fff;
+   
+    margin: auto;
+}
+.beyaz-site-adres {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 9px;
+	text-align: center;
+}
+.mrg-left-10 {
+	margin-left: 3%
+}
+.mrg-right-10 {
+	margin-right: 3%
+}
+.galleries-names {
+	font-size: 30px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 100px;
+}
+.mrg-left-17 {
+	margin-left: 19%;
+}
+.bg-black {
+	background-color: #000;
+	text-align: center;
+	margin: auto;
+	height: 300px;
+}
+.color-black {
+	color: #000;
+}
+.earth-box {
+	width: 40%;
+	margin: auto;
+	height: 300px;
+	line-height: 310px;
+	text-align: center;
+	background-color: rgba(98,98,98,0.3)
+}
+.bg-light-gray {
+	background-color: #000;
+	height: 400px;
+}
+.portfolio-photos-mini-cont {
+	width: 30%;
+	height: auto;
+	float: left;
+	margin: 5px;
+}
+.gri-container {
+	width: 100%;
+	height: 100px;
+	float: left;
+	text-align: center;
+	background-color: rgba(29,28,28,0.3);
+}
+.line-height-60 {
+	line-height: 60px;
+}
+.white-color {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+}
+.white-color :hover {
+	color: #ffff;
+}
+.gri-container a {
+	text-decoration: none;
+	color: #fff;
+}
+.gri-container a : hover {
+	color: #FECC66;
+}
+.art-photo {
+	background-image: url( ../image/atolyee.jpg);
+	background-image: center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.press-photo {
+	background-image: url(../image/press.jpg);
+	background-image: center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 3%;
+	padding-bottom: 50px;
+	text-align: center;
+	
+}
+.graphic-photo {
+	background-image: url(  ../image/grafik2.jpg);
+	background-image: center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-bottom: 0px;
+}
+.web-photo {
+	background-image: url(  ../image/web-resm.jpg);
+	background-image: center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.line-height100 {
+	line-height: 100px;
+}
+.height-250 {
+	height: 250px;
+}
+.margin-top-300 {
+	margin-top: 300px;
+}
+.biography-photo {
+	background-image: url( ../image/biography.jpg);
+	background-image: center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.margin-5 {
+	margin: 5px 5px 5px 5px;
+}
+.margin-top-200 {
+	margin-top: 200px;
+	float: left;
+}
+.color-sari {
+	color: #FECC66;
+	text-align: justify;
+}
+.text-align-center {
+	text-align: center;
+}
+.color-pink {
+	color: #CD3754
+}
+.blog-written {
+	margin: auto!important;
+	font-size: 15px;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+}
+.fl-right {
+	float: right;
+}
+.font-20 {
+	font-size: 20px;
+}
+.blog-photo {
+	background-image: url( ../image/blog-nav.jpg);
+	background-image: center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.web-portfolio-mini-cont {
+	width: 49%!important;
+	height: auto!important;
+	padding: 4% 0%  0% 1%;
+	float:none;
+	margin:auto;
+}
+.padding-bottom-200px {
+	padding-bottom: 200px;
+}
+.contact-photo {
+	background-image: url( ../image/contact.jpg);
+	background-image: center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.line-height-25 {
+	line-height: 25px;
+}
+.mrg-top-60 {
+	margin-top: 60px;
+}
+.menu-photo {
+	display: block;
+}
+.burger-menu {
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	display: none!important;
+}
+.line-height-87 {
+	line-height: 87px;
+}
+.padding-tp-18 {
+	padding-top: 18px;
+}
+.cont-70 {
+	float: left;
+	width: 67%;
+}
+.social-icon-cont2 a :hover {
+	color: #FECC66;
+}
+.height-1000px {
+	height: 1000px
+}
+.container-manifesto {
+	    margin: auto;
+    width: 35% ;
+    height: auto;
+    text-align: left;
+    float: none;}
+@media only screen and (max-width:760px) {
+	
+	.container3 {width:100%;
+		margin:auto;
+	 }	 
+.menu-photo {
+	
+	display: none!important;
+}
+.container-manifesto {
+       margin: auto;
+    width: 60%;
+    height: auto;
+    text-align: left;
+    float: none;}
+	
+.biography-photo {
+	display: none!important;
+}
+.art-photo {
+	display: none!important;
+}
+.web-photo {
+	display: none!important;
+}
+.graphic-photo {
+	display: none!important;
+}
+.contact-photo {
+	display: none!important;
+}
+.blog-photo {
+	display: none!important;
+}
+.social-header {
+	background-image: url( ../image/renkli-frca.jpg);
+	background-image: center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 258px;
+	margin: auto;
+	text-align: center;
+}
+.mrg-auto {
+	margin: auto!important;
+}
+.mrg-left-30 {
+	margin-left: 30%;
+}
+.line-height-200 {
+	line-height: 200px;
+}
+.burger-menu {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	display: block!important;
+}
+.tablet-logo-min-cont {
+	width: 30%;
+	height: auto;
+	margin-top: 10%;
+	margin-right: 2%;
+	margin-left: -2%;
+	margin-bottom: -4%;
+	padding-left: 16%;
+	text-align: center;
+	float: left;
+	padding-bottom: 0px;
+}
+.tablet-social-min-cont {
+	width: 20%;
+	margin-top: 14%;
+	margin-right: 0%;
+	margin-left: 0%;
+	margin-bottom: 0%;
+	height: 60px;
+	text-align: center;
+	float: left;
+}
+.dl-menuwrapper li a:hover {
+	color: #FECC66
+}
+.dl-trigger :hover {
+	color: #FECC66
+}
+.fl-left {
+	float: left;
+}
+.fa-behance {
+	font-size: 30px;
+	color: #fff;
+	float: none;
+	margin: auto;
+	padding-right: 2%;
+}
+.fa-linkedin {
+	font-size: 30px;
+	color: #fff;
+	margin: auto;
+	padding-right: 2%;
+}
+.fa-facebook {
+	font-size: 30px;
+	color: #fff;
+	margin: auto;
+	padding-right: 2%;
+}
+.fa-instagram {
+	font-size: 30px;
+	color: #fff;
+	float: none;
+	margin: auto;
+	padding-right: 2%;
+}
+.blog-written {
+	margin: auto!important;
+	font-size: medium;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+}
+.web-portfolio-mini-cont {
+	width: 46%;
+	float: left;
+}
+.margin-top-200 {
+	margin-top: 30px;
+	float: left;
+}
+.cont-70 {
+	float: left;
+	width: 100%;
+}
+.logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top: 110px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	}
+	}
+ @media only screen and (max-width:320px) {
+	 .container-manifesto {
+	       margin: auto;
+    width: 85%;
+    height: auto;
+    text-align: left;
+    float: none;}
+ .logo {
+ width: 50px;
+ height: 50px;
+ float: left;
+ margin-top: 110px;
+ margin-right: auto;
+ margin-left: auto;
+ margin-bottom: auto;
+}
+ .social-icon-cont3 {
+display:none;
+}
+ .social-icon-cont {
+display:none;
+}
+ .social-icon-cont2 {
+width:100%;
+}
+.tablet-social-min-cont {
+	width: 60%;
+	float: left;
+	height: 100px;
+	line-height: 257px;
+	margin-top: -13px;
+}
+ .social-min-tablet-cont {
+	width: 100%;
+	height: auto;
+}
+.tablet-logo-min-cont {
+    width: 30%;
+    margin: auto;
+    text-align: left;
+    height: 100px;
+    padding-top: 63px;
+    padding-left: 8%;
+    float: left;
+}
+ 
+.fa-linkedin {
+	font-size: 30px;
+	color: #fff;
+	float: none;
+	margin: auto;
+	padding-right: 2%;
+}
+.fa-facebook {
+	font-size: 30px;
+	color: #fff;
+	float: none;
+	margin: auto;
+	padding-right: 2%;
+}
+.fa-instagram {
+	font-size: 30px;
+	color: #fff;
+	float: none;
+	margin: auto;
+	padding-right: 2%;
+}
+ .line-height100 {
+ line-height: 90px;
+}
+ .mrg-left-17 {
+margin-left: 10%;
+}
+ .web-portfolio-mini-cont {
+width:100%
+}
+ .gray-line {
+margin-top: 0px;
+}
+ .portfolio-photos-mini-cont {
+width: 100%;
+margin: auto;
+}
+ .gri-container {
+ margin-top: 0px;
+ margin-bottom: 5px
+}
+ .blog-written {
+margin-left: 2%;
+ font-size:10px;
+}
+ .folow-written {
+font-size: 18px;
+}
+	 
+	
+.container3 {
+	width: 48%;
+	margin: auto;
+	 }	  
+    .container4 {
+    width: 90%;
+	margin: auto;
+	
+	float: none;
+	 }	  
+
+
+	 
+	 
+}
+

@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+.temizlikci {
+	clear: both;
+}
+.container {
+	width: 942px;
+	height: auto;
+	margin: auto;
+}
+.logo {
+	width: 155px;
+	height: 171px;
+	float: left;
+}
+header {
+	width: 942px;
+	height: 171px;
+}
+.menu {
+	width: 410px;
+	height: 40px;
+	float: right;
+}
+.menu li {
+	float: left;
+	padding-left: 35px;
+	height: 40px;
+	list-style: none;
+	line-height: 171px;
+	text-align: right;
+}
+.menu a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.menu a :hover {
+	border-bottom: #000 solid 4px;
+	display: block;
+}
+.slider {
+	width: 944px;
+	height: 455px;
+}
+.hinc-nobis-container {
+	margin-top: 50px;
+	height: 280px;
+	width: 942px;
+	float: left;
+}
+.hinc-min-cont {
+	width: 446px;
+	height: 280px;
+	float: left;
+}
+.hinc-dikey-bosluk {
+	width: 50px;
+	height: 280px;
+	float: left;
+}
+.hinc-tarih-yazisi {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	float: right;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.text-align-center {
+	text-align: center!important;
+}
+.text-align-left {
+	text-align: left!important;
+}
+.text-align-right {
+	text-align: right!important;
+}
+.hinc-isim-yazisi {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	float: left;
+
+}
+.hinc-p-yazisi {
+	
+font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #4a4a4a;
+	
+}
+.hinc-read-more-yazi {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+}
+.eos-container {
+	width: 942px;
+	height: 942px;
+	margin: auto;
+	float: left;
+}
+.eos-min-dikey-cont {
+	width: 448px;
+	height: 942px;
+	float: left;
+	padding-top: 50px;
+}
+.eos-extra-bold-yazi {
+	font-family: 'Kaushan Script', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 65px;
+	font-weight: bolder;
+}
+.eos-ayaklar {
+	width: 447px;
+	height: 488px;
+}
+.eos-33px-yazi {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 33px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: right;
+}
+.hinc-greace-yazisi {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+	float: right;
+	line-height: 60px;
+}
+.eos-dikey-bosluk {
+	width: 45px;
+	float: left;
+	height: 942px;
+}
+.line-height-30px{line-height: 30px;}
+.sign-up-for-container{margin-top:80px;width:942px;
+height:505px;
+float:left;
+margin: auto!important;}
+.sort-gorseli-cont{width:942px;
+	height:218px;float:left;margin-bottom: 80px;}
+.tireli-basliklar{width:700px;
+height:25px;
+float:left;
+margin-left:120px;
+}
+.tireli-basliklar-yazilar{font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+text-align: center;
+color:#000;}
+.mei-cibo-eum-photos-cont{width:942px; 
+	height:978px;
+float:left;margin-bottom: 94px;}
+.mei-cibo-photos{width:298;
+	height:387px;
+float:left;}
+.margin-left-right-20px{margin-left:20px;
+margin-right: 20px;}
+.pri-at-container{width:942px;
+	             height:540px;
+                 float:left;}
+.oturan-kiz-photo{width:447px;
+	height:486px;
+float:left;}
+
+.line-height-25{line-height: 25px;}
+.gri-kare{width:494px;
+height:360px;
+float:right;
+	margin-top: 22px;
+	background-color: #f6f6f6;
+margin-bottom: 0px;}
+.oturan-kiz-photo-right{width:495px;
+	height:486px;
+float:left;}
+.margin-left-50{margin-left: 50px;}
+.social-min-cont{width:280px;
+height:33px;
+margin:auto;
+	margin-bottom: 80px;
+margin-top: 50px;}
+.social-img{width:33px;
+height:33px;
+float:left;margin-left: 7px;
+margin-right: 15px;}

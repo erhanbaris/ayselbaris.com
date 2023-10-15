@@ -1,0 +1,697 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.temizlikci {
+	clear: both;
+}
+.container {
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+.container2 {
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.menu {
+	width: 65%;
+	height: 70px;
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+	text-align: right;
+	width: 12%;
+	height: 70px;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 11px;
+	line-height: 70px;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+}
+.menu ul li a:hover {
+	color: #fad889;
+	text-decoration: underline;
+}
+.logo {
+	width: 20%;
+	height: 70px;
+	float: left;
+}
+.header-img {
+	background-image: url(../img/Untitled-1.jpg);
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.mogo-logo-written {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	margin-left: 5px;
+	margin-top: 22px;
+}
+.width-52 {
+	width: 52px!important;
+}
+.width-57 {
+	width: 57px!important;
+}
+.creative-template {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 55px;
+	margin-top: 5%!important;
+	text-align: center;
+	color: #fff;
+}
+.welcome-to-mogo {
+	font-size: 117px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: bolder;
+	color: #fff;
+	margin-bottom: 55px;
+}
+.tire {
+	width: 20%;
+	height: 2px;
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+.learn-more-btn {
+	width: 12%;
+	height: 32px;
+	border: solid #fff thin;
+	margin: auto;
+	margin-top: 40px;
+}
+.learn-more-written {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+}
+.intro-work-abaut-container {
+	width: 95%;
+	height: 60px;
+	margin-top: 66px;
+}
+.intro-work-abaut-min-cont {
+	width: 14%;
+	height: 60px;
+	float: left;
+	text-align: left;
+	padding-left: 10%;
+}
+.intro-work-abaut-written {
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 5%;
+	line-height: 60px;
+	color: #fff;
+}
+.intro-work-abaut-written-numbers {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 60px;
+	font-weight: bold;
+	float: left;
+	color: #fff;
+}
+.intro-work-abaut-line {
+	width: 153%;
+	height: 2px;
+	background-color: #fff;
+	margin-top: 0px;
+	float: left;
+}
+.intro-work-abaut-line:hover {
+	background-color: #F59E83;
+}
+.what-we-do-written-min-cont {
+	width: 75%;
+	height: auto;
+	margin-top: 55px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+}
+.what-we-do-written- {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 18px;
+	text-align: center;
+}
+.story-about-us {
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+.purple-tire {
+	width: 5%;
+	height: 2px;
+	background-color: #f48989;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.what-we-do-paragraf {
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	color: #adadad;
+}
+.text-aligh-center {
+	text-align: center;
+}
+.what-we-do-photos-cont {
+	width: 100%;
+	height: 215px;
+	float: left;
+	margin-bottom: 80px;
+}
+.margin-left-right25px {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.what-we-do-photos {
+	width: 28%;
+	height: 196px;
+	float: left;
+}
+.su-yesili-cont {
+	width: 100%;
+	height: 211px;
+	background-color: #95e1d3;
+}
+.su-yesili-min-cont {
+	width: 20%;
+	height: 211px;
+	float: left;
+	padding-top: 70px;
+	text-align: center;
+}
+.su-yesili-counts {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 56px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+.su-yesili-written {
+	font-size: 11px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	text-align: center;
+	color: #fff;
+}
+.amazing-services-table-container {
+	width: 90%;
+	height: auto;
+	float: left;
+	margin-bottom: 100px;
+}
+.amazing-services-table-min-cont {
+	width: 28%;
+	height: 95px;
+	float: left;
+	margin-right: 3%;
+	margin-left: 2%;
+	padding-top: 20px;
+}
+.amazing-icon {
+	width: 25px;
+	height: 55px;
+	float: left;
+	margin-right: 25px;
+}
+.amazing-line {
+	background-color: #f1f1f1;
+	width:95%;
+	height: 2px;
+	margin: auto;
+}
+.color-black {
+	color: #000;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.text-alighn-left {
+	text-align: left;
+}
+.text-alighn-right {
+	text-align: right;
+}
+.for-all-devices-img {
+	background: url( ../img/images/mogo-tel-foto_02.png) center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: auto;
+	height: 800px;
+	padding-top: 80px;
+	margin-bottom: 5%;
+}
+.photography-container {
+	width: 100%;
+	height: 450px;
+	float: left;
+}
+.photography-min-cont {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.margin-right20 {
+	margin-right: 20px;
+}
+.photography-right-min-cont {
+	border: solid #DFDFDF thin;
+	width: 468px;
+	height: 140px;
+}
+.photography-long-thin-cont {
+	width: 468px;
+	height: 47px;
+	border: solid #DFDFDF thin;
+}
+.photography-long-second-cont {
+	width: 468px;
+	height: 142px;
+	border: solid #DFDFDF thin;
+}
+.margin-top-10 {
+	margin-top: 10px;
+}
+.font-style-italic-11px {
+	font-style: italic;
+	font-size: 11px;
+	line-height: 21px;
+}
+.photohraphy-icon-min-cont-30x30 {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 10px!important;
+	margin: auto;
+	margin-top: 8px;
+}
+.margin-right13px {
+	margin-right: 13px;
+}
+.photography-slider-min-cont {
+	width: 25px;
+	height: 140px;
+	float: right;
+}
+.bg-gray {
+	background-color: #f8f8f8;
+	padding: 55px 0px 55px 0px;
+	margin-top: 5%;
+}
+.jon-doe-written {
+	font-family: 'Roboto', sans-serif!important;
+	font-style: italic!important;
+	font-size: 18px;
+	text-align: left;
+	color: #a0a0a0;
+	font-weight: 100;
+}
+.jon-doe-img {
+	width: 5%;
+	height: auto;
+	float: left;
+
+	margin: 5%
+}
+.mrgn-lf-tp-15 {
+	
+	margin-top: 15px;
+	margin-right: 1%
+}
+.meet-our-team-img {
+	width: 29%;
+	height: auto;
+	float: left;
+}
+.we-are-team-names {
+	margin-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	color: #3e3e3e;
+	font-size: 11px;
+	text-align: center;
+}
+.we-are-team-job-names {
+	font-family: 'Roboto', sans-serif!important;
+	font-style: italic!important;
+	font-size: 11px;
+	text-align: center;
+	color: #C0C0C0;
+	margin-top: 10px;
+}
+.margin-top-90px {
+	margin-top: 90px;
+}
+.padding-55-55 {
+	padding: 55px 0px 55px 0px;
+}
+.people-say-img {
+	background: url( ../images/images/mauntain_02.png )center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: auto;
+	height: 800px;
+	padding-top: 80px;
+	margin-bottom: 5%;
+}
+.people-say-50-cont {
+	width: 45%;
+	height: auto;
+	float: left;
+	margin-top: 80px;
+}
+.margin-top-0 {
+	margin-top: 0px!important;
+}
+.what-people-say-tire {
+	width: 8%;
+	background-color: #F48989;
+	height: 2px;
+}
+.footer-cont-40 {
+	width: 40%;
+	height: auto;
+	float: left;
+}
+.footer-cont-30 {
+	width: 27%;
+	height: auto;
+	float: left;
+	margin-left: 3%;
+	text-align: left!important;
+}
+.gri {
+	color: #c0c0c0;
+	font-size: 40px;
+	font-weight: bolder;
+}
+.line-height {
+	line-height: 15px;
+}
+.bolder {
+	font-weight: bolder!important;
+}
+.font-size-11 {
+	font-size: 11px;
+	font-weight: normal;
+}
+.grayline {
+	width: 100%;
+	height: 2px;
+	background-color: #e0e0e0;
+	float: left;
+}
+.italic-gray {
+	color: #c0c0c0;
+	font-style: italic;
+	font-size: 11px;
+	float: left;
+	text-align: left;
+	clear: left;
+}
+.footer-icon-cont {
+	width: 70%;
+	height: 22px;
+	float: left;
+}
+.icon-min-cont {
+	width: 8%;
+	height: auto;
+	float: left;
+}
+.footer-bg-padding {
+	background-color: #f8f8f8;
+	padding-bottom: 2%;
+	clear: left;
+}
+.subscribe-btn {
+	width: 25%;
+	height: 30px;
+	background-color: #95E1D3;
+	float: right;
+	text-align: center;
+	border: solid 1px #E0E0E0;
+	border-radius: 5%;
+	margin-top: 30px;
+}
+.your-email-form {
+	width: 71%;
+	height: 20px;
+	float: left;
+	background-color: #fff;
+	border: solid 1px #E0E0E0;
+	margin-top: 30px;
+}
+.color-white-written {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+}
+.color-white-written:hover {
+	color: #F38181;
+}
+.yr-email {
+	font-family: 'Roboto', sans-serif!important;
+	font-style: italic!important;
+	font-size: 18px;
+	text-align: left;
+	color: #c0c0c0;
+	font-weight: lighter;
+	text-transform: capitalize;
+}
+.pembe {
+	color: #F48989;
+	line-height: 50px;
+}
+.free-psd-template {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.mrg-tp-65 {
+	margin-top: 65px;
+}
+.blog-img-min-cont {
+	width: 37%;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+}
+.blogs-heads {
+	margin-top: 8%;
+	font-family: 'Montserrat', sans-serif;
+	color: #3e3e3e;
+	font-size: 10px;
+	text-align: left;
+	margin-left: 40%;
+}
+.instagram-imgs-cont {
+	width: 80%;
+	height: auto;
+	margin-top: 8%;
+	float: left;
+}
+.instagram-min-img-conts {
+	width: 31%;
+	height: auto;
+	margin: 1%;
+	float: left;
+}
+.container4 {
+	display: none;
+}
+.dropdown {
+	display: none;
+}
+.gorseller-tablet {
+	display: none;
+}
+.mapp{	background: url(../images/mappppp_02.png)center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: auto;
+	height:160px;
+	margin-bottom: 5%;
+	margin-top:5%;
+	text-align:center;}
+	.map-icon{width:25px;
+	height:25px;
+	margin:auto;
+	margin-top:3%}
+
+.what-we-do-cont-tel{display: none;}
+@media only screen and (max-width:740px) {
+.menu {
+	display: none;
+}
+/* Dropdown Button */
+.dropbtn {
+	background-color: #F48C83;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #FFF;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: #F6A685;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content li {
+	list-style: none;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: #F8BA87;
+}
+.welcome-to-mogo {
+	font-size: 30px;
+}
+.intro-work-abaut-container {
+	display: none;
+}
+.amazing-services-table-min-cont {
+	width: 45%;
+	float: left;
+}
+	.amazing-line{display:none;}
+
+.gorseller {
+	display: none;
+}
+.gorseller-tablet {
+	width: 100%;
+	height: auto;
+	float: left;
+	display: block;
+}
+	
+.your-email-form {
+	width: 70%;}
+	.wrapper {
+    width: 80%;
+    max-width: 800px;
+    margin: 9% 15%;
+}
+
+.footer-cont-40 {
+    width: 100%;
+    height: auto;
+    float: none;
+}	
+	.footer-cont-30 {
+		width: 47%;}
+}
+.st-accordion {
+   
+	min-width: 28%;}
+.mrgn-lf-tp-15 {
+    margin-top: 15px;
+    margin-right: 1%;
+    margin-left: 18%;
+}
+.what-we-do-cont-tel{display: none;}
+@media only screen and (max-width:320px) {
+	
+	
+	.creative-template {
+ 
+		font-size: 35px;}
+	
+	
+	.su-yesili-min-cont {
+    width: 100%;
+    height: 211px;
+    float: none;
+    padding-top: 70px;
+    text-align: center;
+}
+	.what-we-do-photos-cont{display: none}
+	.what-we-do-cont-tel{width:100%;
+	float:left;
+	height: auto;}
+	
+	
+	
+	.for-all-devices-img {
+    background: url(../img/images/mogo-tel-foto_02.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+		height: auto;}
+	
+	
+	.su-yesili-cont{display: none}
+	.amazing-services-table-min-cont {
+    width: 100%;
+    float: left;
+}
+	
+	.st-accordion ul li > a {font-size: 8px;}	
+	.photography-container{height: auto;}
+	
+	.people-say-50-cont {
+    width: 100%;
+    height: auto;
+		float: none;}
+	.people-say-50-cont{margin-top: 0px;}
+	.footer-cont-30{width:100%}
+}
